@@ -5,7 +5,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1100px;
   background-color: white;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -14,14 +14,14 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #595959;
+  color: #2b331f;
   padding: 100px 90px;
-  width: 830px;
+  width: 730px;
 }
 h1 {
   font-size: 45px;
   font-weight: 700;
-  color: black;
+  color: #2b331f;
   width: 540px;
 }
 h3 {
@@ -29,9 +29,10 @@ h3 {
   line-height: 27px;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #2b331f;
 }
 h2 {
-  color: black;
+  color: #2b331f;
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
@@ -42,14 +43,13 @@ h4 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  color: black;
-  margin: 0 0 10px 0;
+  color: #2b331f;
 }
 h5 {
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
-  color: black;
+  color: #2b331f;
 }
 .date {
   font-size: 12px;
@@ -61,11 +61,11 @@ h5 {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-  color: black;
+  color: #2b331f;
   padding-left: 17px;
 }
 .text-orange {
-  color: #fb6d3a;
+  color: #e24c2c;
 }
 .about-me {
   margin: 0 0 40px 0;
@@ -85,7 +85,7 @@ h5 {
   width: 530px;
 }
 .wand {
-  color: black;
+  color: #2b331f;
   font-weight: 700;
   padding: 0 8px;
 }
@@ -96,8 +96,7 @@ h5 {
   width: 355px;
 }
 .sidebar {
-  background-color: #1e2939;
-  color: white;
+  background-color: #bbc8ba;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -108,16 +107,18 @@ h5 {
   margin: 50px 0 0 40px;
 }
 .contact-type {
+  color: #2b331f;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   margin-right: 7px;
 }
 .contact-link {
-  color: #565e6a;
+  color: #2b331f;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
 }
 .tech-skills {
   margin: 50px 0 0 40px;
@@ -127,8 +128,4 @@ h5 {
 }
 .skills-list {
   padding-left: 17px;
-  color: #fb6d3a;
-}
-.text-white-list {
-  color: white;
 }
