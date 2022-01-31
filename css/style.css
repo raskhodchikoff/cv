@@ -1,0 +1,134 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: white;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.right-section {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  padding: 100px 90px;
+  width: 830px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: black;
+  width: 540px;
+}
+h3 {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+h2 {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 10px;
+  margin: 0 0 10px 0;
+}
+h4 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 10px 0;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: black;
+}
+.date {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  font-weight: 400;
+}
+.text-bold {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  padding-left: 17px;
+}
+.text-orange {
+  color: #fb6d3a;
+}
+.about-me {
+  margin: 0 0 40px 0;
+}
+.about-me-text {
+  width: 400px;
+}
+.my-projects {
+  width: 485px;
+}
+.my-project-item {
+  color: #595959;
+  font-weight: 485;
+  margin-left: 5px;
+}
+.my-work-experience {
+  width: 530px;
+}
+.wand {
+  color: black;
+  font-weight: 700;
+  padding: 0 8px;
+}
+.shift {
+  padding-left: 17px;
+}
+.my-education {
+  width: 355px;
+}
+.sidebar {
+  background-color: #1e2939;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 370px;
+  padding: 40px 0;
+}
+.contact {
+  margin: 50px 0 0 40px;
+}
+.contact-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 7px;
+}
+.contact-link {
+  color: #565e6a;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.tech-skills {
+  margin: 50px 0 0 40px;
+}
+.soft-skills {
+  margin: 40px 0 0 40px;
+}
+.skills-list {
+  padding-left: 17px;
+  color: #fb6d3a;
+}
+.text-white-list {
+  color: white;
+}
