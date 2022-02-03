@@ -36,8 +36,6 @@ h2 {
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
-  margin-bottom: 10px;
-  margin: 0 0 10px 0;
 }
 h4 {
   font-size: 16px;
@@ -67,14 +65,12 @@ h5 {
 .text-orange {
   color: #e24c2c;
 }
-.about-me {
-  margin: 0 0 40px 0;
-}
 .about-me-text {
   width: 400px;
 }
 .my-projects {
   width: 485px;
+  margin-top: 40px;
 }
 .my-project-item {
   color: #595959;
@@ -83,6 +79,7 @@ h5 {
 }
 .my-work-experience {
   width: 530px;
+  margin-top: 40px;
 }
 .wand {
   color: #2b331f;
@@ -94,6 +91,7 @@ h5 {
 }
 .my-education {
   width: 355px;
+  margin-top: 40px;
 }
 .sidebar {
   background-color: #bbc8ba;
@@ -111,7 +109,7 @@ h5 {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  margin-right: 7px;
+  list-style-type: none;
 }
 .contact-link {
   color: #2b331f;
@@ -119,10 +117,14 @@ h5 {
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
+  padding-left: 3px;
 }
 .skills {
   margin: 50px 0 0 40px;
 }
 .skills-list {
   padding-left: 17px;
+}
+.contact-list {
+  padding-left: 5px;
 }
